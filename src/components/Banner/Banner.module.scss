@@ -1,0 +1,42 @@
+.banner {
+  margin-top: 30px;
+  display: flex;
+  gap: 158px;
+  .left {
+    margin-top: 95px;
+    width: 50%;
+    float: left;
+    // margin-right: 20px;
+    .title {
+      font-style: normal;
+      font-weight: 400;
+      font-size: 55px;
+      line-height: 71px;
+      color: #2d2d2d;
+    }
+    p {
+      font-style: normal;
+      font-weight: 300;
+      font-size: 16px;
+      line-height: 21px;
+      color: #2d2d2d;
+      margin-bottom: 10px;
+    }
+    button {
+      background: rgba(66, 232, 224, 0.1);
+      border: 1px solid #42e8e0;
+      border-radius: 10px;
+      width: 109px;
+      height: 42px;
+      margin-right: 12px;
+      outline: none;
+    }
+  }
+  .right {
+    width: 50%;
+    float: right;
+    img {
+      height: 437px;
+    }
+  }
+}
